@@ -1,5 +1,5 @@
 //
-//  IncrementButtonicon.swift
+//  DecrementButtonicon.swift
 //  Slider
 //
 //  Created by Ali Mantaev on 2022-04-03.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct IncrementButtonIcon: View {
+struct DecrementButtonIcon: View {
     var body: some View {
         Circle()
             .foregroundColor(Color.white)
             .overlay(
-                Image(systemName: "chevron.up")
+                Image(systemName: "chevron.down")
                     .resizable()
                     .frame(width: 250, height: 150)
                     .foregroundColor(Color("Gold")),
@@ -21,11 +21,11 @@ struct IncrementButtonIcon: View {
     }
 }
 
-struct IncrementButtonicon_Previews: PreviewProvider {
+struct DecrementButtonicon_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.gray.opacity(0.5)
-            IncrementButtonIcon()
+            DecrementButtonIcon()
         }
         .edgesIgnoringSafeArea(.all)
     }

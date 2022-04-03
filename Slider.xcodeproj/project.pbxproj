@@ -12,6 +12,8 @@
 		3F717D3B27F9594600B27480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F717D3A27F9594600B27480 /* Assets.xcassets */; };
 		3F717D3E27F9594600B27480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F717D3D27F9594600B27480 /* Preview Assets.xcassets */; };
 		3FEAF20827FA3AEF00C687AE /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF20727FA3AEF00C687AE /* MainButtonStyle.swift */; };
+		3FEAF20B27FA3F4A00C687AE /* DecrementButtonIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF20A27FA3F4A00C687AE /* DecrementButtonIcon.swift */; };
+		3FEAF21027FA43DF00C687AE /* DecrementButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF20F27FA43DF00C687AE /* DecrementButton.swift */; };
 		3FEDF03A27F9F72100B05429 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDF03927F9F72100B05429 /* NextButton.swift */; };
 		3FEDF03E27F9F7AD00B05429 /* IncrementButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDF03D27F9F7AD00B05429 /* IncrementButton.swift */; };
 		3FEDF04327F9F7C600B05429 /* IncrementButtonIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDF04227F9F7C600B05429 /* IncrementButtonIcon.swift */; };
@@ -25,6 +27,8 @@
 		3F717D3D27F9594600B27480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F717D3F27F9594600B27480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FEAF20727FA3AEF00C687AE /* MainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonStyle.swift; sourceTree = "<group>"; };
+		3FEAF20A27FA3F4A00C687AE /* DecrementButtonIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecrementButtonIcon.swift; sourceTree = "<group>"; };
+		3FEAF20F27FA43DF00C687AE /* DecrementButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecrementButton.swift; sourceTree = "<group>"; };
 		3FEDF03927F9F72100B05429 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
 		3FEDF03D27F9F7AD00B05429 /* IncrementButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementButton.swift; sourceTree = "<group>"; };
 		3FEDF04227F9F7C600B05429 /* IncrementButtonIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementButtonIcon.swift; sourceTree = "<group>"; };
@@ -81,10 +85,11 @@
 		3FEDF03727F9F6F800B05429 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				3FEDF04627F9F9A200B05429 /* Styles */,
-				3FEDF04027F9F7B800B05429 /* Icons */,
 				3FEDF03927F9F72100B05429 /* NextButton.swift */,
 				3FEDF03D27F9F7AD00B05429 /* IncrementButton.swift */,
+				3FEAF20F27FA43DF00C687AE /* DecrementButton.swift */,
+				3FEDF04627F9F9A200B05429 /* Styles */,
+				3FEDF04027F9F7B800B05429 /* Icons */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				3FEDF04227F9F7C600B05429 /* IncrementButtonIcon.swift */,
+				3FEAF20A27FA3F4A00C687AE /* DecrementButtonIcon.swift */,
 			);
 			path = Icons;
 			sourceTree = "<group>";
@@ -185,7 +191,9 @@
 				3FEDF03A27F9F72100B05429 /* NextButton.swift in Sources */,
 				3FEDF03E27F9F7AD00B05429 /* IncrementButton.swift in Sources */,
 				3FEAF20827FA3AEF00C687AE /* MainButtonStyle.swift in Sources */,
+				3FEAF21027FA43DF00C687AE /* DecrementButton.swift in Sources */,
 				3FEDF04327F9F7C600B05429 /* IncrementButtonIcon.swift in Sources */,
+				3FEAF20B27FA3F4A00C687AE /* DecrementButtonIcon.swift in Sources */,
 				3F717D3927F9593C00B27480 /* HomeView.swift in Sources */,
 				3F717D3727F9593C00B27480 /* SliderApp.swift in Sources */,
 			);

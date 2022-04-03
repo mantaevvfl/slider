@@ -1,5 +1,5 @@
 //
-//  IncrementButton.swift
+//  DecrementButton.swift
 //  Slider
 //
 //  Created by Ali Mantaev on 2022-04-03.
@@ -7,24 +7,24 @@
 
 import SwiftUI
 
-struct IncrementButton: View {
+struct DecrementButton: View {
     let action: () -> Void
     
     var body: some View {
         Button(action: {
-            // todo: increments slider value
+            // todo: decrement slider value
             action()
         }, label: {
-            IncrementButtonIcon()
+            DecrementButtonIcon()
         })
     }
 }
 
-struct IncrementButton_Previews: PreviewProvider {
+struct DecrementButton_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.gray.opacity(0.5)
-            IncrementButton(action: {})
+            DecrementButton(action: {})
         }
         .edgesIgnoringSafeArea(.all)
     }
